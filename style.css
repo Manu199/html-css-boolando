@@ -93,7 +93,9 @@ main {
   font-size: xx-large;
 }
 .heart:hover{
-  
+  cursor: pointer;
+  color: red;
+
 }
 .card {
   width: 400px; 
@@ -120,4 +122,21 @@ h1, h2, h3, h4, h5, h6{
 }
 .originale{
   text-decoration: line-through;
+}
+footer{
+  background-color: #1A1A1A;
+  color: white;
+}
+.container-footer{
+  display: flex;
+  max-width: 1800px;
+
+}
+.informazioni{
+  margin: 15px;
+  justify-content: flex-start;
+}
+.social{
+  margin: 15px;
+  justify-self: flex-end;
 }
